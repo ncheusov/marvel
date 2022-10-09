@@ -31,7 +31,7 @@ class MarvelService {
             name: char.name,
             description:
                 char.description 
-                ? `${char.description.slice(0 ,240)}...`
+                ? `${char.description.slice(0 ,220)}...`
                 : "Описания персонажа пока что нет",
             thumbnail: char.thumbnail.path + '.' + char.thumbnail.extension,
             homepage: char.urls[0].url,
