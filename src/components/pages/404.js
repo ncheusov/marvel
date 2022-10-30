@@ -17,7 +17,7 @@ const Page404 = () => {
                 'fontSize': '24px', 
                 'marginTop': '30px'
             }}
-            to="/">Back to main page</Link>
+            to="">Back to main page</Link>
         </div>
     );
 }
